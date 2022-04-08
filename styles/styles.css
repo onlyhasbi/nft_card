@@ -92,7 +92,7 @@ main {
   letter-spacing: 0.019rem;
 }
 
-.card-content h2:hover {
+.card-content h1:hover {
   color: var(--cyan);
   cursor: pointer;
 }
@@ -118,12 +118,12 @@ main {
   gap: 0.45rem;
 }
 
-.eth-label h3,
+.eth-label h2,
 .day-label p {
   display: contents;
 }
 
-.eth-label h3 {
+.eth-label h2 {
   color: var(--cyan);
   font-size: 0.9rem;
   font-weight: 600;
