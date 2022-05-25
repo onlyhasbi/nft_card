@@ -18,6 +18,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 html,
 body {
   font-size: 62.5%;
@@ -144,13 +149,12 @@ body {
   font-size: 1.5rem;
   color: var(--soft-blue);
   font-weight: 400;
-  letter-spacing: 0.04rem;
 }
 
 .creator-name {
-  margin-left: 0.3rem;
+  margin-left: 0.4rem;
   color: var(--white);
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.02rem;
 }
 
 .creator-name:hover {
